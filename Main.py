@@ -139,10 +139,6 @@ def play(player1_f, player2_f):
         
         render(board)
 
-        #x = int(input("What is your moves x coordinates --> "))
-        #y = int(input("What is your moves y coordinates --> "))
-        #move_co_ords = (x,y)
-
         if (turn_number % 2 ) == 0 :
             xy = (input ("What is your moves x and y coordinates ---> X,Y\n                                       ---> "))
             move_co_ords = list(map(int, xy.split(","))) 
