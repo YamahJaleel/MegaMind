@@ -137,7 +137,7 @@ def play(player1_f, player2_f):                                 ## Function to p
 
         current_player_id, current_player_f = players[turn_number % 2]       # Determine the current player's symbol and function
         
-        render(board)                                                       # Display the current game board
+        render(board)                                                        # Display the current game board
 
         if (turn_number % 2 ) == 0 :
             xy = (input ("Enter your moves in this format ---> X,Y\n                                ---> "))
@@ -153,7 +153,7 @@ def play(player1_f, player2_f):                                 ## Function to p
             if (winner == players[0][0]) :
                 print("%s HAS WON !!!" % player1_f)                         # Player 1 wins
             else :
-                print("MegaMind HAS WON !!!")                                     # MegaMind wins
+                print("MegaMind HAS WON !!!")                               # MegaMind wins
             break
 
         if is_board_full(board):
