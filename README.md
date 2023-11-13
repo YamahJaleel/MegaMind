@@ -1,3 +1,9 @@
+<div align="center">
+  <img src="https://media.giphy.com/media/l1Et6k00qp9fMTP8s/giphy.gif" width="1000"/>
+</div>
+
+
+
 # MegaMind
 Tic-Tac-Toe is a deceptively simple game, but its decision space becomes surprisingly intricate when you aim to build an AI that never loses. The key to this unbeatable AI lies in the Minimax algorithm, a fundamental concept in the realm of artificial intelligence and game theory.
 
