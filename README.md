@@ -5,11 +5,11 @@
 
 
 # MegaMind
-> DESCRIPTION
+## Description
 
 Tic-Tac-Toe is a deceptively simple game, but its decision space becomes surprisingly intricate when you aim to build an AI that never loses. The key to this unbeatable AI lies in the Minimax algorithm, a fundamental concept in the realm of artificial intelligence and game theory.
 
-> HOW MINIMAX WORKS
+## How Minimax Works
 
 1. Game Tree Generation: To make optimal decisions, the algorithm begins by constructing a comprehensive game tree that represents all possible moves and counter-moves by both the AI and its opponent. This tree extends several levels deep, capturing various possible game states.
 
@@ -21,7 +21,7 @@ Tic-Tac-Toe is a deceptively simple game, but its decision space becomes surpris
 
 5. Best Move Selection: The AI selects the move that leads to the highest score at the root node. This move is deemed the optimal choice, as it minimizes the worst-case scenario, assuming both players play perfectly.
 
-> HANDLING OPPONENTS MOVES
+## Handling opponents moves
 
 In addition to its intrinsic understanding of the game, the minimax algorithm also anticipates the opponent's moves. It assumes that the opponent will make the best possible move in each situation and adjusts its decisions accordingly. This anticipatory approach is crucial for ensuring that the algorithm remains unbeatable.
 
